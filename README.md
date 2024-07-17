@@ -6,12 +6,10 @@ The main goal of this Project is to build a gui app that will download Everthing
 YouTube(Tested) works with playlists and Short Videos too
 and More...
 
+
 ## Pictures of App:
 
-![image](https://github.com/user-attachments/assets/d5ba25af-1c7a-43e6-9c46-dcd74e5dbd85)
-![image](https://github.com/user-att![sdsdsd](https://github.com/user-attachments/assets/4cc9f780-1a5e-4a5e-8c1a-b7391a271abb)
-![sdsdsd](https://github.com/user-attachments/assets/b179602f-6af0-43ff-9747-706c73b09ab6)
-
+![sdsdsd](https://github.com/user-attachments/assets/78063845-47e6-4df1-a92c-9fecac3f2091)
 
 ## How To Run:
 
