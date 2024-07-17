@@ -1,27 +1,17 @@
 # EveryThingDownloader
-as the name says its a downloader for Everything...
-The Main Goal of this Project Is to build a gui app that Downloads Everthing From the Websites
+as the name says its a Downloader for Everything...
+The main goal of this Project is to build a gui app that will download Everthing From Websites
 ## Supported Websites:
 
 YouTube(Tested) works with playlists and Short Videos too
-Vimeo
-Dailymotion
-Metacafe
-Vevo
-The Guardian
-The New York Times
-Educational Platforms
-Coursera
-Udemy
-Khan Academy
-SoundCloud
-Reddit
 and More...
 
 ## Pictures of App:
 
 ![image](https://github.com/user-attachments/assets/d5ba25af-1c7a-43e6-9c46-dcd74e5dbd85)
-![image](https://github.com/user-attachments/assets/c8f5cbbb-2698-4e96-8ff0-43b55f9843d6)
+![image](https://github.com/user-att![sdsdsd](https://github.com/user-attachments/assets/4cc9f780-1a5e-4a5e-8c1a-b7391a271abb)
+![sdsdsd](https://github.com/user-attachments/assets/b179602f-6af0-43ff-9747-706c73b09ab6)
+
 
 ## How To Run:
 
@@ -49,7 +39,7 @@ https://www.python.org/downloads/
 -the progress bar has some issue it will not work and is not sync with the progress bar on CMD
 -remember to use a proxy or vpn if you get network connection issues(all the errors is the same i will add the network in next updates)*
 
-### if you want to contribute to project just send a pull request .
+## if you want to contribute to project just send a pull request .
 
 
 
