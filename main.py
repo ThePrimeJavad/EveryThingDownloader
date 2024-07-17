@@ -2,7 +2,7 @@ from tkinter import Tk, Canvas, Entry, Button, PhotoImage, filedialog, Label, St
 import threading
 from pathlib import Path
 import yt_dlp
-import os
+
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / "assets"
@@ -20,10 +20,10 @@ def on_download_click():
         return
     
     if 'playlist' in url:
-        download_message.set('Playlist Found! Trying to Download...')
+        download_message.set('Playlist Found! Downloading...')
         threading.Thread(target=download_playlist, args=(url,)).start()
-    elif 'www' in url:
-        download_message.set('Trying to Download...')
+    elif url:
+        download_message.set('Video Found! Downloading...')
         threading.Thread(target=download_video, args=(url,)).start()
     else:
         download_message.set("Unsupported URL format. Please check again.")
@@ -61,7 +61,7 @@ def download_playlist(url):
     except StopDownloadException:
         download_message.set("Download Stopped.")
     except yt_dlp.utils.DownloadError as e:
-        if 'private' in str(e):
+        if 'This video is private' in str(e):
             download_message.set("Private video skipped.")
         else:
             print(f"Error: {e}")
